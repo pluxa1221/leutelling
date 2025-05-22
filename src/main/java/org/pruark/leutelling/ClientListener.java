@@ -2,9 +2,11 @@ package org.pruark.leutelling;
 
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.EntityRenderersEvent;
+import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber.Bus;
+import org.pruark.leutelling.entities.MyEntity;
 import org.pruark.leutelling.entities.MyEntityRenderer;
 import org.pruark.leutelling.registry.EntityRegistry;
 
@@ -19,5 +21,8 @@ public final class ClientListener {
         event.registerEntityRenderer(EntityRegistry.MYENTITY.get(), MyEntityRenderer::new);
 
     }
-
+    @SubscribeEvent
+    public static void onAttributeCreation(EntityAttributeCreationEvent event) {
+        event.put(EntityRegistry.MYENTITY.get(), MyEntity.createAttributes().build());
+    }
 }

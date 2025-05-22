@@ -1,7 +1,10 @@
 package org.pruark.leutelling.entities;
 
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.PathfinderMob;
+import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.level.Level;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
@@ -13,7 +16,7 @@ import software.bernie.geckolib.core.object.PlayState;
 import software.bernie.geckolib.util.GeckoLibUtil;
 
 public class MyEntity extends PathfinderMob implements GeoEntity {
-    protected static final RawAnimation FLY_ANIM = RawAnimation.begin().thenLoop("move.fly");
+    protected static final RawAnimation TEST_ANIM = RawAnimation.begin().thenLoop("animation.myentity.test");
 
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
 
@@ -28,9 +31,17 @@ public class MyEntity extends PathfinderMob implements GeoEntity {
 
     protected <E extends MyEntity> PlayState testAnimController(final AnimationState<E> event) {
         if (event.isMoving())
-            return event.setAndContinue(FLY_ANIM);
+            return event.setAndContinue(TEST_ANIM);
 
         return PlayState.STOP;
+    }
+
+    // Определяем атрибуты сущности
+    public static AttributeSupplier.Builder createAttributes() {
+        return Mob.createMobAttributes()
+                .add(Attributes.MAX_HEALTH, 20.0D) // Максимальное здоровье
+                .add(Attributes.MOVEMENT_SPEED, 0.3D) // Скорость передвижения
+                .add(Attributes.ATTACK_DAMAGE, 2.0D); // Урон от атаки (если сущность атакует)
     }
 
     @Override
