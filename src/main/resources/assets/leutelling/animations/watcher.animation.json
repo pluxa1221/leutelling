@@ -1,0 +1,50 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"animation.watcher.new": {
+			"animation_length": 3,
+			"bones": {
+				"RightArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-65.85133, -20.70481, -9.00717],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [-109.44888, 0.45164, -16.83623],
+							"easing": "linear"
+						},
+						"3.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				},
+				"LeftArm": {
+					"rotation": {
+						"0.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						},
+						"1.0": {
+							"vector": [-65.85133, 20.70481, 9.00717],
+							"easing": "linear"
+						},
+						"2.0": {
+							"vector": [-109.44888, -0.45164, 16.83623],
+							"easing": "linear"
+						},
+						"3.0": {
+							"vector": [0, 0, 0],
+							"easing": "linear"
+						}
+					}
+				}
+			}
+		}
+	}
+}
