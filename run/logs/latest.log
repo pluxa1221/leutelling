@@ -1,87 +1,181 @@
-[22мая2025 15:34:54.238] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 3, --assetsDir, C:\Users\prudn\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 45.3.9, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
-[22мая2025 15:34:54.245] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[22мая2025 15:34:54.397] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/prudn/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[22мая2025 15:34:54.845] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.4-45.3.9\1d9235e9eddb598572686d0a407e1337ac3e8f80\javafmllanguage-1.19.4-45.3.9.jar is missing mods.toml file
-[22мая2025 15:34:54.851] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.4-45.3.9\4ccc22f2bca00dc89b67860085e2d62ddb10a0b8\lowcodelanguage-1.19.4-45.3.9.jar is missing mods.toml file
-[22мая2025 15:34:54.855] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.4-45.3.9\33a7dcede19a04e324ed04120f057663f1e26dd4\mclanguage-1.19.4-45.3.9.jar is missing mods.toml file
-[22мая2025 15:34:54.860] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.4-45.3.9\8ad757ab375bd4f618da61e7ece40fcfe43ce3a6\fmlcore-1.19.4-45.3.9.jar is missing mods.toml file
-[22мая2025 15:34:54.976] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
-[22мая2025 15:34:56.622] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[22мая2025 15:34:56.625] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\prudn\.gradle\caches\forge_gradle\assets, --assetIndex, 3]
-[22мая2025 15:34:57.063] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using F:\dockerProjects\Leutelling\build\createSrgToMcp\output.srg
-[22мая2025 15:35:02.575] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 180 Datafixer optimizations took 178 milliseconds
-[22мая2025 15:35:04.837] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/prudn/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.4-45.3.9_mapped_official_1.19.4/forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
-[22мая2025 15:35:04.837] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/prudn/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.4-45.3.9_mapped_official_1.19.4/forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
-[22мая2025 15:35:04.855] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[22мая2025 15:35:04.862] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[22мая2025 15:35:04.983] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[22мая2025 15:35:05.738] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.3.9, for MC 1.19.4 with MCP 20230314.122934
-[22мая2025 15:35:05.742] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.3.9 Initialized
-[22мая2025 15:35:07.599] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [leutelling]
-[22мая2025 15:35:07.607] [Render thread/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/]: Exception caught during firing event: Registry Object not present: leutelling:myentity
-	Index: 1
-	Listeners:
-		0: NORMAL
-		1: ASM: class org.pruark.leutelling.ClientListener registerRenderers(Lnet/minecraftforge/client/event/EntityRenderersEvent$RegisterRenderers;)V
-java.lang.NullPointerException: Registry Object not present: leutelling:myentity
-	at java.base/java.util.Objects.requireNonNull(Objects.java:336)
-	at TRANSFORMER/forge@45.3.9/net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:204)
-	at TRANSFORMER/leutelling@1.0-SNAPSHOT/org.pruark.leutelling.ClientListener.registerRenderers(ClientListener.java:19)
-	at TRANSFORMER/leutelling@1.0-SNAPSHOT/org.pruark.leutelling.__ClientListener_registerRenderers_RegisterRenderers.invoke(.dynamic)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:315)
-	at MC-BOOTSTRAP/net.minecraftforge.eventbus/net.minecraftforge.eventbus.EventBus.post(EventBus.java:296)
-	at LAYER PLUGIN/javafmllanguage@1.19.4-45.3.9/net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:121)
-	at LAYER PLUGIN/fmlcore@1.19.4-45.3.9/net.minecraftforge.fml.ModLoader.lambda$postEvent$34(ModLoader.java:320)
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
-	at LAYER PLUGIN/fmlcore@1.19.4-45.3.9/net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225)
-	at LAYER PLUGIN/fmlcore@1.19.4-45.3.9/net.minecraftforge.fml.ModLoader.postEvent(ModLoader.java:320)
-	at TRANSFORMER/forge@45.3.9/net.minecraftforge.client.ForgeHooksClient.initClientHooks(ForgeHooksClient.java:1247)
-	at TRANSFORMER/minecraft@1.19.4/net.minecraft.client.Minecraft.<init>(Minecraft.java:553)
-	at TRANSFORMER/minecraft@1.19.4/net.minecraft.client.main.Main.main(Main.java:169)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:569)
-	at MC-BOOTSTRAP/fmlloader@1.19.4-45.3.9/net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.run(Launcher.java:108)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.Launcher.main(Launcher.java:78)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
-	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.9/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
-	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)
-
-[22мая2025 15:35:07.609] [Render thread/ERROR] [net.minecraftforge.fml.javafmlmod.FMLModContainer/LOADING]: Caught exception during event net.minecraftforge.client.event.EntityRenderersEvent$RegisterRenderers@2d2a8819 dispatch for modid leutelling
-java.lang.NullPointerException: Registry Object not present: leutelling:myentity
-	at java.util.Objects.requireNonNull(Objects.java:336) ~[?:?]
-	at net.minecraftforge.registries.RegistryObject.get(RegistryObject.java:204) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23187%23194!/:?]
-	at org.pruark.leutelling.ClientListener.registerRenderers(ClientListener.java:19) ~[%23193!/:?]
-	at org.pruark.leutelling.__ClientListener_registerRenderers_RegisterRenderers.invoke(.dynamic) ~[%23193!/:?]
-	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.3.jar:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.3.jar:?]
-	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.3.jar:?]
-	at net.minecraftforge.fml.javafmlmod.FMLModContainer.acceptEvent(FMLModContainer.java:121) ~[javafmllanguage-1.19.4-45.3.9.jar:?]
-	at net.minecraftforge.fml.ModLoader.lambda$postEvent$34(ModLoader.java:320) ~[fmlcore-1.19.4-45.3.9.jar:?]
-	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at net.minecraftforge.fml.ModList.forEachModInOrder(ModList.java:225) ~[fmlcore-1.19.4-45.3.9.jar:?]
-	at net.minecraftforge.fml.ModLoader.postEvent(ModLoader.java:320) ~[fmlcore-1.19.4-45.3.9.jar:?]
-	at net.minecraftforge.client.ForgeHooksClient.initClientHooks(ForgeHooksClient.java:1247) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.Minecraft.<init>(Minecraft.java:553) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:169) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
-	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
-	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
-	at net.minecraftforge.fml.loading.targets.ForgeClientUserdevLaunchHandler.lambda$launchService$0(ForgeClientUserdevLaunchHandler.java:25) ~[fmlloader-1.19.4-45.3.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar:?]
-	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
-[22мая2025 15:35:08.016] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID 99553d7a-177d-40d5-9846-a49089956841
-[22мая2025 15:35:08.025] [Render thread/FATAL] [net.minecraftforge.common.ForgeMod/]: Preparing crash report with UUID d511f6c5-7616-45aa-b2cf-789774a5ed56
+[22мая2025 15:59:35.457] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 3, --assetsDir, C:\Users\prudn\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 45.3.9, --fml.mcVersion, 1.19.4, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230314.122934]
+[22мая2025 15:59:35.462] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[22мая2025 15:59:35.633] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/prudn/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
+[22мая2025 15:59:36.200] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.4-45.3.9\1d9235e9eddb598572686d0a407e1337ac3e8f80\javafmllanguage-1.19.4-45.3.9.jar is missing mods.toml file
+[22мая2025 15:59:36.205] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.4-45.3.9\4ccc22f2bca00dc89b67860085e2d62ddb10a0b8\lowcodelanguage-1.19.4-45.3.9.jar is missing mods.toml file
+[22мая2025 15:59:36.209] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.4-45.3.9\33a7dcede19a04e324ed04120f057663f1e26dd4\mclanguage-1.19.4-45.3.9.jar is missing mods.toml file
+[22мая2025 15:59:36.213] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\prudn\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.4-45.3.9\8ad757ab375bd4f618da61e7ece40fcfe43ce3a6\fmlcore-1.19.4-45.3.9.jar is missing mods.toml file
+[22мая2025 15:59:36.317] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: No dependencies to load found. Skipping!
+[22мая2025 15:59:37.914] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[22мая2025 15:59:37.918] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\prudn\.gradle\caches\forge_gradle\assets, --assetIndex, 3]
+[22мая2025 15:59:38.367] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using F:\dockerProjects\Leutelling\build\createSrgToMcp\output.srg
+[22мая2025 15:59:44.706] [Datafixer Bootstrap/INFO] [com.mojang.datafixers.DataFixerBuilder/]: 180 Datafixer optimizations took 664 milliseconds
+[22мая2025 15:59:46.520] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/prudn/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.4-45.3.9_mapped_official_1.19.4/forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[22мая2025 15:59:46.520] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/prudn/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.4-45.3.9_mapped_official_1.19.4/forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[22мая2025 15:59:46.543] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22мая2025 15:59:46.548] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[22мая2025 15:59:46.665] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[22мая2025 15:59:47.329] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 45.3.9, for MC 1.19.4 with MCP 20230314.122934
+[22мая2025 15:59:47.333] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v45.3.9 Initialized
+[22мая2025 15:59:48.827] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [leutelling]
+[22мая2025 15:59:49.282] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: vanilla, mod_resources
+[22мая2025 15:59:49.958] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[22мая2025 15:59:51.551] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 45.3.9 Target: 45.4.0
+[22мая2025 15:59:51.782] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.782] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.783] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.783] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.783] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.783] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.784] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.784] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.784] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.784] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.784] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.784] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.784] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.785] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.785] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.785] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.786] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.786] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:51.786] [modloading-worker-0/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 15:59:52.624] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brushing
+[22мая2025 15:59:52.625] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.brush.brush_sand_completed
+[22мая2025 15:59:52.625] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[22мая2025 15:59:52.625] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[22мая2025 15:59:52.626] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:music.overworld.cherry_grove
+[22мая2025 15:59:52.743] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Realtek HD Audio 2nd output (Realtek(R) Audio)
+[22мая2025 15:59:52.744] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[22мая2025 15:59:52.788] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[22мая2025 15:59:52.801] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[22мая2025 15:59:52.802] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[22мая2025 15:59:52.803] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[22мая2025 15:59:52.804] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[22мая2025 15:59:52.806] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 64x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[22мая2025 15:59:52.808] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[22мая2025 15:59:52.809] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[22мая2025 15:59:52.809] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[22мая2025 15:59:52.983] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[22мая2025 15:59:53.058] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[22мая2025 15:59:53.060] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[22мая2025 15:59:53.061] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[22мая2025 15:59:54.456] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[22мая2025 16:00:04.494] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.494] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.494] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.494] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.494] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.495] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.496] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.496] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.496] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.496] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.496] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.496] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.525] [Render thread/WARN] [net.minecraftforge.registries.ForgeRegistry/REGISTRIES]: Registry minecraft:entity_type: Object did not get ID it asked for. Name: leutelling:myentity Expected: 124 Got: 132
+[22мая2025 16:00:04.535] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.535] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.535] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.535] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.535] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.535] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.535] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:04.536] [Render thread/ERROR] [net.minecraft.Util/]: Entity leutelling:myentity has no attributes
+[22мая2025 16:00:06.180] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 7 recipes
+[22мая2025 16:00:06.538] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 1179 advancements
+[22мая2025 16:00:06.936] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.4
+[22мая2025 16:00:06.936] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[22мая2025 16:00:08.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[22мая2025 16:00:11.479] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22мая2025 16:00:11.479] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22мая2025 16:00:11.523] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22мая2025 16:00:11.523] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22мая2025 16:00:11.523] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22мая2025 16:00:11.605] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22мая2025 16:00:11.887] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[22мая2025 16:00:12.409] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 21%
+[22мая2025 16:00:12.880] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 84%
+[22мая2025 16:00:12.965] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 4092 ms
+[22мая2025 16:00:12.967] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[22мая2025 16:00:13.177] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[22мая2025 16:00:13.179] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[22мая2025 16:00:13.324] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[22мая2025 16:00:13.948] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[22мая2025 16:00:14.037] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:0e350b8f] logged in with entity id 224 at (8.087638745716077, 67.0, 10.912783005554994)
+[22мая2025 16:00:14.140] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[22мая2025 16:00:14.907] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 25 advancements
+[22мая2025 16:00:28.278] [Server thread/WARN] [net.minecraft.world.entity.EntityType/]: Exception loading entity: 
+java.lang.NullPointerException: Cannot invoke "net.minecraft.world.entity.ai.attributes.AttributeSupplier.getValue(net.minecraft.world.entity.ai.attributes.Attribute)" because "this.supplier" is null
+	at net.minecraft.world.entity.ai.attributes.AttributeMap.getValue(AttributeMap.java:79) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.LivingEntity.getAttributeValue(LivingEntity.java:1801) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.LivingEntity.getMaxHealth(LivingEntity.java:1624) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.LivingEntity.<init>(LivingEntity.java:232) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.Mob.<init>(Mob.java:124) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.PathfinderMob.<init>(PathfinderMob.java:14) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at org.pruark.leutelling.entities.MyEntity.<init>(MyEntity.java:21) ~[%23193!/:?]
+	at net.minecraft.world.entity.EntityType.create(EntityType.java:525) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.EntityType.lambda$create$4(EntityType.java:530) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.minecraft.world.entity.EntityType.create(EntityType.java:529) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.EntityType.loadStaticEntity(EntityType.java:607) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.world.entity.EntityType.loadEntityRecursive(EntityType.java:563) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.commands.SummonCommand.createEntity(SummonCommand.java:52) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.commands.SummonCommand.spawnEntity(SummonCommand.java:73) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.commands.SummonCommand.lambda$register$1(SummonCommand.java:36) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at com.mojang.brigadier.CommandDispatcher.execute(CommandDispatcher.java:263) ~[brigadier-1.0.18.jar%23134!/:?]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:255) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performChatCommand(ServerGamePacketListenerImpl.java:1239) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleChatCommand$12(ServerGamePacketListenerImpl.java:1216) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.lambda$submitAsync$0(BlockableEventLoop.java:58) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:17) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:143) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:22) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:773) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:162) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:116) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:756) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:750) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.runAllTasks(BlockableEventLoop.java:104) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:735) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:668) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:252) ~[forge-1.19.4-45.3.9_mapped_official_1.19.4-recomp.jar%23188!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[22мая2025 16:00:28.283] [Render thread/INFO] [net.minecraft.client.gui.components.ChatComponent/]: [System] [CHAT] Unable to summon entity
+[22мая2025 16:00:34.068] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
+[22мая2025 16:00:34.086] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[22мая2025 16:00:34.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[22мая2025 16:00:34.107] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[22мая2025 16:00:37.487] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[22мая2025 16:00:37.487] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[22мая2025 16:00:37.510] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[22мая2025 16:00:37.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[22мая2025 16:00:37.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[22мая2025 16:00:37.545] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[22мая2025 16:00:38.458] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:overworld
+[22мая2025 16:00:38.668] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_nether
+[22мая2025 16:00:38.669] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[Test]'/minecraft:the_end
+[22мая2025 16:00:38.700] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (Test): All chunks are saved
+[22мая2025 16:00:38.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22мая2025 16:00:38.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22мая2025 16:00:38.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22мая2025 16:00:40.949] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
