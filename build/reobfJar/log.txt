@@ -159,6 +159,7 @@ Writing Output: F:\dockerProjects\Leutelling\build\reobfJar\output.jar
   org/
   org/pruark/
   org/pruark/leutelling/
+  org/pruark/leutelling/ClientListener.class
   org/pruark/leutelling/Leutelling$ClientModEvents.class
   org/pruark/leutelling/Leutelling.class
   org/pruark/leutelling/entities/

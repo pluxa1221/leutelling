@@ -20,7 +20,6 @@ import software.bernie.geckolib.GeckoLib;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(Leutelling.MODID)
 public class Leutelling {
-//    GeckoLib.initialize();
 
     // Define mod id in a common place for everything to reference
     public static final String MODID = "leutelling";
