@@ -16,7 +16,7 @@ import software.bernie.geckolib.core.object.PlayState;
 import software.bernie.geckolib.util.GeckoLibUtil;
 
 public class MyEntity extends PathfinderMob implements GeoEntity {
-    protected static final RawAnimation TEST_ANIM = RawAnimation.begin().thenLoop("animation.myentity.test");
+    protected static final RawAnimation NEW_ANIM = RawAnimation.begin().thenLoop("animation.watcher.new");
 
     private final AnimatableInstanceCache geoCache = GeckoLibUtil.createInstanceCache(this);
 
@@ -26,12 +26,12 @@ public class MyEntity extends PathfinderMob implements GeoEntity {
 
     @Override
     public void registerControllers(final AnimatableManager.ControllerRegistrar controllers) {
-        controllers.add(new AnimationController<>(this, "test", 5, this::testAnimController));
+        controllers.add(new AnimationController<>(this, "new", 5, this::newAnimController));
     }
 
-    protected <E extends MyEntity> PlayState testAnimController(final AnimationState<E> event) {
+    protected <E extends MyEntity> PlayState newAnimController(final AnimationState<E> event) {
         if (event.isMoving())
-            return event.setAndContinue(TEST_ANIM);
+            return event.setAndContinue(NEW_ANIM);
 
         return PlayState.STOP;
     }

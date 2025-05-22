@@ -8,7 +8,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import org.pruark.leutelling.Leutelling;
 import org.pruark.leutelling.entities.MyEntity;
-import software.bernie.example.entity.*;
 
 public final class EntityRegistry {
     public static final DeferredRegister<EntityType<?>> ENTITIES;

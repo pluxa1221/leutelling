@@ -5,9 +5,9 @@ import org.pruark.leutelling.Leutelling;
 import software.bernie.geckolib.model.GeoModel;
 
 public class MyEntityModel extends GeoModel<MyEntity> {
-    private final ResourceLocation model = new ResourceLocation(Leutelling.MODID, "geo/myentity.geo.json");
-    private final ResourceLocation texture = new ResourceLocation(Leutelling.MODID, "textures/entity/kacper.png");
-    private final ResourceLocation animations = new ResourceLocation(Leutelling.MODID, "animations/myentity.animation.json");
+    private final ResourceLocation model = new ResourceLocation(Leutelling.MODID, "geo/watcher.geo.json");
+    private final ResourceLocation texture = new ResourceLocation(Leutelling.MODID, "textures/entity/watcher.png");
+    private final ResourceLocation animations = new ResourceLocation(Leutelling.MODID, "animations/watcher.animation.json");
 
     @Override
     public ResourceLocation getModelResource(MyEntity object) {
