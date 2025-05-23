@@ -8,8 +8,6 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
-import org.pruark.leutelling.dialogue.DialogueScreen;
-import org.pruark.leutelling.dialogue.SampleDialogue;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.AnimatableManager;
@@ -53,25 +51,5 @@ public class MyEntity extends PathfinderMob implements GeoEntity {
     @Override
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return this.geoCache;
-    }
-
-    @Override
-    public InteractionResult mobInteract(Player player, InteractionHand hand) {
-        if (!this.level.isClientSide && hand == InteractionHand.MAIN_HAND) {
-            // На сервере: просто успешное взаимодействие
-            return InteractionResult.SUCCESS;
-        }
-        if (this.level.isClientSide && hand == InteractionHand.MAIN_HAND) {
-            openDialogueScreen();
-            return InteractionResult.SUCCESS;
-        }
-        return super.mobInteract(player, hand);
-    }
-
-    @OnlyIn(Dist.CLIENT)
-    private void openDialogueScreen() {
-        net.minecraft.client.Minecraft.getInstance().setScreen(
-                new DialogueScreen(SampleDialogue.getDialogue())
-        );
     }
 }
