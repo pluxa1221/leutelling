@@ -1,5 +1,6 @@
 package org.pruark.leutelling.entities;
 
+import net.minecraft.client.Minecraft;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.EntityType;
@@ -8,6 +9,7 @@ import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.level.Level;
+import org.pruark.leutelling.gui.DialogScreen;
 import software.bernie.geckolib.animatable.GeoEntity;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.core.animation.AnimatableManager;
@@ -16,8 +18,6 @@ import software.bernie.geckolib.core.animation.AnimationState;
 import software.bernie.geckolib.core.animation.RawAnimation;
 import software.bernie.geckolib.core.object.PlayState;
 import software.bernie.geckolib.util.GeckoLibUtil;
-import net.minecraftforge.api.distmarker.Dist;
-import net.minecraftforge.api.distmarker.OnlyIn;
 
 public class MyEntity extends PathfinderMob implements GeoEntity {
     protected static final RawAnimation NEW_ANIM = RawAnimation.begin().thenLoop("animation.watcher.new");
@@ -51,5 +51,14 @@ public class MyEntity extends PathfinderMob implements GeoEntity {
     @Override
     public AnimatableInstanceCache getAnimatableInstanceCache() {
         return this.geoCache;
+    }
+
+    @Override
+    public InteractionResult mobInteract(Player player, InteractionHand hand) {
+        if (level.isClientSide && hand == InteractionHand.MAIN_HAND) {
+            Minecraft.getInstance().setScreen(new DialogScreen());
+            return InteractionResult.SUCCESS;
+        }
+        return super.mobInteract(player, hand);
     }
 }
